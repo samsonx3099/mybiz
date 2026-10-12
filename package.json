@@ -1,1 +1,12 @@
+{
+  "name": "mybiz",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "migrate": "node src/scripts/migrate.js"
+  }
+}
 
